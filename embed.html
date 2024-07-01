@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>embed generator</title>
+
+        {% if embed_image %}
+            <meta name="twitter:card" content="summary_large_image">
+        {% endif %}
+
+        {% if embed_video %}
+            <meta name="twitter:card" content="player">
+        {% endif %}
+
+        <meta name="twitter:title" content="{{ embed_title }}">
+        <meta name="twitter:description" content="{{ embed_description }}">
+
+        {% if embed_image %}
+            <meta name="twitter:image" content="{{ embed_image }}">
+        {% endif %}
+
+        {% if embed_video %}
+            <meta name="twitter:player" content="{{ embed_video }}">
+            <meta name="twitter:player:width" content="1280">
+            <meta name="twitter:player:height" content="720">
+        {% endif %}
+
+        <meta name="og:url" content="{{ embed_url }}">
+        <meta name="theme-color" content="#{{ embed_colour }}">
+
+        <link type="application/json+oembed" href="{{ oembed_link }}">
+    </head>
+    <body>
+        paste this link into discord<br>
+        <script>
+            document.write(window.location.href);
+        </script>
+    </body>
+</html>
