@@ -13,6 +13,9 @@
     <meta name="og:description" content={$page.url.searchParams.get("description")}>
     <meta name="og:url" content={$page.url.searchParams.get("url")}>
     <meta name="theme-color" content="#{$page.url.searchParams.get('colour')}">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content={$page.url.searchParams.get('image')}>
 
 </svelte:head>
 
