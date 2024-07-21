@@ -11,8 +11,7 @@
 <body>
     <div class="top_bar">
         <div class="top_title">
-            <h1 class="title">Invictus Selfbot</h1>    
-            <h3>Like Nighty but free...</h3>
+            <h1><a class="title">Invictus Selfbot</a> - <a>Like Nighty but free</a></h1>    
         </div>
 
         <div class="top_container">
