@@ -2,7 +2,6 @@
     import "/src/style.css";
     import { onMount } from 'svelte';
 
-
     interface Dependency {
         name: string;
         description: string;
