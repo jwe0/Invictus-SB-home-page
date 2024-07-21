@@ -47,11 +47,6 @@ body {
     text-align: center;
 }
 
-.subtitle {
-    font-size: 20px;
-    text-align: center;
-    margin-top: -30px;
-}
 
 .nav_button {
     margin-top: 0px;
@@ -188,4 +183,8 @@ body {
 
 .top_container {
     margin-right: 10px;
+}
+
+.top_title {
+    margin-left: 10px;
 }

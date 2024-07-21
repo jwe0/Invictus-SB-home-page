@@ -10,7 +10,10 @@
 
 <body>
     <div class="top_bar">
-        <h1 class="title">Invictus Selfbot</h1>    
+        <div class="top_title">
+            <h1 class="title">Invictus Selfbot</h1>    
+            <h3>Like Nighty but free...</h3>
+        </div>
 
         <div class="top_container">
             <button class="nav_button" on:click={() => window.location.href = download}>Download</button>
