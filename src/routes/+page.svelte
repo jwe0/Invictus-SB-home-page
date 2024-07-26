@@ -18,6 +18,7 @@
             <button class="nav_button" on:click={() => window.location.href = download}>Download</button>
             <button class="nav_button" on:click={() => window.location.href = '/documentation'}>Documentation</button>
             <button class="nav_button" on:click={() => window.location.href = '/commands'}>Commands</button>
+            <button class="nav_button" on:click={() => window.location.href = 'https://github.com/jwe0/Invictus-Tools'}>Other Tools</button>
         </div>
     </div>
 
