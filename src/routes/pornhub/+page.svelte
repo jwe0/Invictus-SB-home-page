@@ -51,7 +51,7 @@
                                                         data-disable-popover="" data-type="user"
                                                         data-userid="2503455441">
                                                         <img class="commentAvatarImg avatarTrigger"
-                                                            src="{$page.url.searchParams.get('avatar')|| "/src/view_video_php_files/default.jpg"}"
+                                                            src="{$page.url.searchParams.get('avatar')|| "https://ei.phncdn.com/pics/users/default/pornhub/(m=bJWsSeKlbyaT)(mh=4N6NZAtseWL0p9UF)male.jpg"}"
                                                             loading="lazy" width="" height="" alt="{$page.url.searchParams.get('username') || 'Avatar'}"
                                                             title="" data-title="{$page.url.searchParams.get('username') || 'Avatar'}">
                                                         <div class="avatarPosition"></div>
